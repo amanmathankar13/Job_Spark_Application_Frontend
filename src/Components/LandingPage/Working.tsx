@@ -21,7 +21,7 @@ const Working=()=>{
                     {
                         work.map((item:any, index)=><div key={index} className="flex items-center gap-4">
                         <div className="p-2.5 bg-bright-sun-300 rounded-full flex items-center justify-center shrink-0">
-                            <img className="h-12 w-12" src={`/${item.name}.png`} alt="img" />
+                            <img className="h-12 w-12" src={`${item.img}.png`} alt="img" />
                         </div>
                         <div>
                                 <div className="text-mine-shaft-200 text-xl font-semibold">
